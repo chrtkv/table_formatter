@@ -17,10 +17,12 @@ def find_column_size(links, columns):
 
 
 def sort_by_description(links):
+    # for link in list(links):
+    #     print(link)
     '''
     alphabeticaly sort links by description
     '''
-    return sorted(links, key=lambda x: x[1])
+    return sorted(links, key=lambda x: x[1].strip('"'))
 
 
 def divide_description(links):
