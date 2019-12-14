@@ -57,7 +57,7 @@ def create_table(rows):
     def cb(row):
         result = ''
         for link in row:
-            result += "(({} {}))|".format(link[0], link[1])
+            result += "(({} {} ))|".format(link[0], link[1])
         return result
     markuped_links = map(cb, rows)
 
