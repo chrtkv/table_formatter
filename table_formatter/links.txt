@@ -1,0 +1,7 @@
+https://yandex.ru Яндекс
+https://google.com Google
+https://hexlet.io Хеклет
+https://ttttt.ru Тут пример описания из нескольких слов
+https://rt.ru А это такой пример, где есть запятая
+https://tut.by Добавили описание (в скобки)
+https://taka.ru Така-таката
