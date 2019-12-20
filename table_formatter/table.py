@@ -22,7 +22,7 @@ def sort_by_description(links):
     '''
     alphabeticaly sort links by description
     '''
-    return sorted(links, key=lambda x: x[1].strip('"'))
+    return sorted(links, key=lambda x: x[1].strip('"').lower())
 
 
 def divide_description(links):
